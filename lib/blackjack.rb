@@ -60,6 +60,8 @@ display_card_total(num)
    num = hit?(num)
   # display_card_total()
   end
+  if num > 21 
   end_game(num)
+  end
   end
 
