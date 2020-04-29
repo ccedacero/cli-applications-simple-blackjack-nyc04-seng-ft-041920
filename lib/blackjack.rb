@@ -51,14 +51,14 @@ end
 num
 end
 
- def runner()
+def runner
  welcome()
  num = initial_round()
  hit?(num)
- display_card_total(num)
+# display_card_total(num)
  while num <= 21 
    num = hit?(num)
-  display_card_total(num)
+  # display_card_total(num)
   end
   end_game(num)
   end
