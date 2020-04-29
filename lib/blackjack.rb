@@ -57,8 +57,6 @@ def runner
  while num <= 21 
    num = hit?(num)
   end
-  if num > 21 
   end_game(num)
-  end
   end
 
